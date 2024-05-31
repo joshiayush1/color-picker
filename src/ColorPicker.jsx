@@ -1,7 +1,7 @@
 import React, {useState} from'react';
+import './ColorPicker.css'
 
-const ColorPicker = () => {
-
+const ColorPick = () => {
 const [color, setColor] = useState("#fff");
 
 const handleColorChange = (event) => {
@@ -15,10 +15,14 @@ const handleColorChange = (event) => {
                 <p>{color}</p>
             </div>
             <div className='color-input'>
+                <label>
+                 Choose Color:
+                 </label>
+                <br />
                 <input type="color" value={color} onChange={handleColorChange} />
             </div>
         </div>
     )
 }
 
-export default ColorPicker
+export default ColorPick
