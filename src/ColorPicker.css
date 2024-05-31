@@ -5,23 +5,23 @@
     font-family: "Arimo";
 }
 body {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 @font-face {
     font-family: Arimo;
     src: url(assets/fonts/Arimo-VariableFont_wght.ttf);
 }
 .color-picker-container {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .color-picker-container h1 {
-    margin: 50px 0;
+    margin: 0px 0 50px;
     font-size: 40px;
 }
 .color-display {

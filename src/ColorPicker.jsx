@@ -16,7 +16,7 @@ const handleColorChange = (event) => {
             </div>
             <div className='color-input'>
                 <label>
-                 Choose Color:
+                 Choose a Color:
                  </label>
                 <br />
                 <input type="color" value={color} onChange={handleColorChange} />
